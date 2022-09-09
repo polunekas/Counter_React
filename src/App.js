@@ -2,7 +2,7 @@ import React from "react"
 import "./index.scss"
 
 function App() {
-  const [count, setCount] = React.useState(0) //инициализация значения
+  const [count, setCount] = React.useState(5) //инициализация значения
   const onClickPlus = () => {
     setCount(count + 1)
   }
